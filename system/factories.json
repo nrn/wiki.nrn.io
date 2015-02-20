@@ -1,0 +1,23 @@
+[
+{"name":"Code","title":"Pretty-printed code","category":"format"}
+,
+{"name":"ByteBeat","title":"8-bit Music by Formula","category":"format"}
+,
+{"name":"Calculator","title":"Running Sums for Expenses","category":"data"}
+,
+{"name":"Grep","title":"Grep Plugin","category":"other"}
+,
+{"name":"HTML","title":"Sanitized HTML","category":"format"}
+,
+{"name":"MathJax","title":"TeX Formatted Equations","category":"format"}
+,
+{"name":"Map","title":"Street Map","category":"data"}
+,
+{"name":"Markdown","title":"Markdown Plugin","category":"format"}
+,
+{"name":"Method","title":"Computational Method","category":"data"}
+,
+{"name":"Video","title":"YouTube or Vimeo","category":"other"}
+,
+{"name":"PageFold","title":"Named Separator for Structured Pages","category":"data"}
+]

@@ -1,0 +1,220 @@
+{
+  "title": "jQuery",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "985bae71ea14f73b",
+      "text": "This is not a comprehensive set of docs about jQuery, not even close. What this attempts to be is the least painful way to get started with DOM manipulation, using an extremely small subset of jQuery."
+    },
+    {
+      "type": "paragraph",
+      "id": "2f1ad02fe132950c",
+      "text": "Not only will we leave out whole parts of jQuery, we will also leave out many ways to use the functions presented here."
+    },
+    {
+      "type": "paragraph",
+      "id": "50d10e01b89566fa",
+      "text": "jQuery(fn) - calls fn with jQuery passed as the first argument when the dom is ready. fn = function ($) { // All my jQuery code can go here safely using $ and knowing the dom is loaded }"
+    },
+    {
+      "type": "paragraph",
+      "id": "3fdb17d12e75dd2b",
+      "text": "$(str) - Takes a css selector and returns a collection of matching elements."
+    },
+    {
+      "type": "paragraph",
+      "id": "46d1f5e77d7472a4",
+      "text": "collection.html(str) - Set the inner html of a node or set of nodes to a string."
+    },
+    {
+      "type": "paragraph",
+      "id": "18b67f2a6c5c54c4",
+      "text": "collection.append(str) - Append the str to the inner html of each item in the collection."
+    },
+    {
+      "type": "paragraph",
+      "id": "a7223eb8f52f8102",
+      "text": "collection.parent() - Return a collection of the parents of the collection."
+    },
+    {
+      "type": "paragraph",
+      "id": "7285273301b5ddeb",
+      "text": "collection.on(str, fn) - When an event is fired on/bubbles up to an element in the collection call fn with the event."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "jQuery"
+      },
+      "date": 1357793555596
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "985bae71ea14f73b"
+      },
+      "id": "985bae71ea14f73b",
+      "type": "add",
+      "date": 1357793558114
+    },
+    {
+      "type": "edit",
+      "id": "985bae71ea14f73b",
+      "item": {
+        "type": "paragraph",
+        "id": "985bae71ea14f73b",
+        "text": "This is not a comprehensive set of docs about jQuery, not even close. What this attempts to be is the least painful way to get started with DOM manipulation, using an extremely small subset of jQuery."
+      },
+      "date": 1357793712967
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "2f1ad02fe132950c",
+        "text": ""
+      },
+      "id": "2f1ad02fe132950c",
+      "type": "add",
+      "after": "985bae71ea14f73b",
+      "date": 1357793713471
+    },
+    {
+      "type": "edit",
+      "id": "2f1ad02fe132950c",
+      "item": {
+        "type": "paragraph",
+        "id": "2f1ad02fe132950c",
+        "text": "Not only will we leave out whole parts of jQuery, we will also leave out many ways to use the functions presented here."
+      },
+      "date": 1357793776562
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "50d10e01b89566fa",
+        "text": ""
+      },
+      "id": "50d10e01b89566fa",
+      "type": "add",
+      "after": "2f1ad02fe132950c",
+      "date": 1357793777066
+    },
+    {
+      "type": "edit",
+      "id": "50d10e01b89566fa",
+      "item": {
+        "type": "paragraph",
+        "id": "50d10e01b89566fa",
+        "text": "jQuery(fn) - calls fn with jQuery passed as the first argument when the dom is ready. fn = function ($) { // All my jQuery code can go here safely using $ and knowing the dom is loaded }"
+      },
+      "date": 1357793932130
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "3fdb17d12e75dd2b",
+        "text": ""
+      },
+      "id": "3fdb17d12e75dd2b",
+      "type": "add",
+      "after": "50d10e01b89566fa",
+      "date": 1357793932633
+    },
+    {
+      "type": "edit",
+      "id": "3fdb17d12e75dd2b",
+      "item": {
+        "type": "paragraph",
+        "id": "3fdb17d12e75dd2b",
+        "text": "$(str) - Takes a css selector and returns a collection of matching elements."
+      },
+      "date": 1357794043899
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "46d1f5e77d7472a4",
+        "text": ""
+      },
+      "id": "46d1f5e77d7472a4",
+      "type": "add",
+      "after": "3fdb17d12e75dd2b",
+      "date": 1357794044403
+    },
+    {
+      "type": "edit",
+      "id": "46d1f5e77d7472a4",
+      "item": {
+        "type": "paragraph",
+        "id": "46d1f5e77d7472a4",
+        "text": "collection.html(str) - Set the inner html of a node or set of nodes to a string."
+      },
+      "date": 1357794100606
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "18b67f2a6c5c54c4",
+        "text": ""
+      },
+      "id": "18b67f2a6c5c54c4",
+      "type": "add",
+      "after": "46d1f5e77d7472a4",
+      "date": 1357794366644
+    },
+    {
+      "type": "edit",
+      "id": "18b67f2a6c5c54c4",
+      "item": {
+        "type": "paragraph",
+        "id": "18b67f2a6c5c54c4",
+        "text": "collection.append(str) - Append the str to the inner html of each item in the collection."
+      },
+      "date": 1357794453257
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "a7223eb8f52f8102",
+        "text": ""
+      },
+      "id": "a7223eb8f52f8102",
+      "type": "add",
+      "after": "18b67f2a6c5c54c4",
+      "date": 1357794453761
+    },
+    {
+      "type": "edit",
+      "id": "a7223eb8f52f8102",
+      "item": {
+        "type": "paragraph",
+        "id": "a7223eb8f52f8102",
+        "text": "collection.parent() - Return a collection of the parents of the collection."
+      },
+      "date": 1357794616369
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "7285273301b5ddeb",
+        "text": ""
+      },
+      "id": "7285273301b5ddeb",
+      "type": "add",
+      "after": "a7223eb8f52f8102",
+      "date": 1357794728893
+    },
+    {
+      "type": "edit",
+      "id": "7285273301b5ddeb",
+      "item": {
+        "type": "paragraph",
+        "id": "7285273301b5ddeb",
+        "text": "collection.on(str, fn) - When an event is fired on/bubbles up to an element in the collection call fn with the event."
+      },
+      "date": 1357794833669
+    }
+  ]
+}

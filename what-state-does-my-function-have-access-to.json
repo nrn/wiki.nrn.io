@@ -1,0 +1,38 @@
+{
+  "title": "What state does my function have access to?",
+  "story": [],
+  "journal": [
+    {
+      "type": "create",
+      "id": "f529bd81cbadc41d",
+      "item": {
+        "title": "What state does my function have access to?"
+      },
+      "date": 1345449794289
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "be186c0e63edd9ee"
+      },
+      "id": "be186c0e63edd9ee",
+      "type": "add",
+      "date": 1345449796510
+    },
+    {
+      "type": "edit",
+      "id": "be186c0e63edd9ee",
+      "item": {
+        "type": "paragraph",
+        "id": "be186c0e63edd9ee",
+        "text": "This is a surprisingly difficult question in JavaScript. The main factors that play into this include scope, invocation context, and inheritance."
+      },
+      "date": 1345449979483
+    },
+    {
+      "type": "remove",
+      "id": "be186c0e63edd9ee",
+      "date": 1346223740944
+    }
+  ]
+}

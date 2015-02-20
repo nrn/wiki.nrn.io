@@ -1,0 +1,55 @@
+{
+  "title": "Two sides of promises",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "e664c7b394f2a7cf",
+      "text": "There are at least two ideas known as promises in software. The one most common in JavaScript is the promise for a value that must be fetched asynchronously. The other is a promise for a value that need not be calculated yet. Can these two 'promises' be unified?"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Two sides of promises",
+        "story": []
+      },
+      "date": 1403975718985
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "e664c7b394f2a7cf"
+      },
+      "id": "e664c7b394f2a7cf",
+      "type": "add",
+      "date": 1403975730403
+    },
+    {
+      "type": "edit",
+      "id": "e664c7b394f2a7cf",
+      "item": {
+        "type": "paragraph",
+        "id": "e664c7b394f2a7cf",
+        "text": "There are at least two ideas known as promises in software. The one most common in JavaScript is the promise for a value that must be fetched asynchronously. The other is a promise for a value that need not be calculated yet. Can these two 'promises' be unified?"
+      },
+      "date": 1403975916342
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "82427dd6209dce78",
+        "text": ""
+      },
+      "id": "82427dd6209dce78",
+      "type": "add",
+      "after": "e664c7b394f2a7cf",
+      "date": 1403975916847
+    },
+    {
+      "type": "remove",
+      "id": "82427dd6209dce78",
+      "date": 1403975967632
+    }
+  ]
+}

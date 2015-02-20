@@ -1,0 +1,127 @@
+{
+  "title": "JavaScript Passing Values",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "6e62fe141345f217",
+      "text": "Depricated, see [[JavaScript Mutability]] instead."
+    },
+    {
+      "type": "paragraph",
+      "id": "b4d920627f93a631",
+      "text": "JavaScript values can be classified as two types as far as how they are passed is concerned, primitives, and objects. Primitives include numbers and strings, objects include arrays and functions."
+    },
+    {
+      "type": "paragraph",
+      "id": "453c96137801f35c",
+      "text": "Primitives are passed by value. This means whenever a variable is accessed, it's current value is plugged in just as if it was written there as a literal. If that value is then changed it doesn't change the value assigned to the variable. This includes calling a function, using a variable that has a primitive value, as an argument."
+    },
+    {
+      "type": "paragraph",
+      "id": "f41d181e52eab338",
+      "text": "Objects are passed by reference. That means there is only one copy of an object that you point to from multiple different variables and scopes, unless you explicitly copy it. If you change an object from any of the variables that refer to it, it is changed everywhere that refers to it."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "id": "f5ae33fc9d6fa116",
+      "item": {
+        "title": "JavaScript Passing Values"
+      },
+      "date": 1346222174553
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b4d920627f93a631"
+      },
+      "id": "b4d920627f93a631",
+      "type": "add",
+      "date": 1346222177152
+    },
+    {
+      "type": "edit",
+      "id": "b4d920627f93a631",
+      "item": {
+        "type": "paragraph",
+        "id": "b4d920627f93a631",
+        "text": "JavaScript values can be classified as two types as far as how they are passed is concerned, primitives, and objects. Primitives include numbers and strings, objects include arrays and functions."
+      },
+      "date": 1346222324457
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "453c96137801f35c",
+        "text": ""
+      },
+      "id": "453c96137801f35c",
+      "type": "add",
+      "after": "b4d920627f93a631",
+      "date": 1346222324964
+    },
+    {
+      "type": "edit",
+      "id": "453c96137801f35c",
+      "item": {
+        "type": "paragraph",
+        "id": "453c96137801f35c",
+        "text": "Primitives are passed by value. This means whenever a variable is accessed, it's current value is plugged in just as if it was written there as a literal. If that value is then changed it doesn't change the value assigned to the variable. This includes calling a function, using a variable that has a primitive value, as an argument."
+      },
+      "date": 1346222730723
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "f41d181e52eab338",
+        "text": ""
+      },
+      "id": "f41d181e52eab338",
+      "type": "add",
+      "after": "453c96137801f35c",
+      "date": 1346222731235
+    },
+    {
+      "type": "edit",
+      "id": "f41d181e52eab338",
+      "item": {
+        "type": "paragraph",
+        "id": "f41d181e52eab338",
+        "text": "Objects are passed by reference. That means there is only one copy of an object that you point to from multiple different variables and scopes, unless you explicitly copy it. If you change an object from any of the variables that refer to it, it is changed everywhere that refers to it."
+      },
+      "date": 1346223116548
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "6e62fe141345f217"
+      },
+      "id": "6e62fe141345f217",
+      "type": "add",
+      "after": "f41d181e52eab338",
+      "date": 1357450870985
+    },
+    {
+      "type": "edit",
+      "id": "6e62fe141345f217",
+      "item": {
+        "type": "paragraph",
+        "id": "6e62fe141345f217",
+        "text": "Depricated, see [[JavaScript Mutability]] instead."
+      },
+      "date": 1357450941446
+    },
+    {
+      "type": "move",
+      "order": [
+        "6e62fe141345f217",
+        "b4d920627f93a631",
+        "453c96137801f35c",
+        "f41d181e52eab338"
+      ],
+      "id": "6e62fe141345f217",
+      "date": 1357450947043
+    }
+  ]
+}

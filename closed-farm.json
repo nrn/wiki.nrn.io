@@ -1,0 +1,387 @@
+{
+  "title": "Closed farm",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "3da7bc4059459085",
+      "text": "Most wiki farms are open. This is for flexibility, and ease of setup. But with a little work they don't have to be."
+    },
+    {
+      "type": "paragraph",
+      "id": "5d5e128ba3e1c736",
+      "text": "The main thing you need to create a closed farm is a list of wiki names, and the email addresses of the people that should own them."
+    },
+    {
+      "type": "paragraph",
+      "id": "901da6a6e550d167",
+      "text": "The first step is to make sure only the right traffic can reach them. This should be done on the server using a reverse proxy. One easy way to set this up is to use nginx like you would for a virtual host setup. You can then direct only the domain names you want at your server."
+    },
+    {
+      "type": "paragraph",
+      "id": "4a6a8816b9ab65e7",
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "id": "593cabf9190e22ef",
+      "text": "Would a list of approved farm host names be a good feature to add? <-- I think so. So I proposed a way to add it."
+    },
+    {
+      "type": "paragraph",
+      "id": "2936a239761454b6",
+      "text": "Then you have to create the persona.identity file for each wiki, so that they can't be claimed by anyone else."
+    },
+    {
+      "type": "paragraph",
+      "id": "8c97852cbfbee38f",
+      "text": "To do this for my own wiki, starting in the wiki db directory, I would do this:"
+    },
+    {
+      "type": "code",
+      "id": "2cfe892d6813ea38",
+      "text": "mkdir -p ramble.nrn.io/status\n\nprintf 'nick.niemeir@gmail.com' > ramble.nrn.io/status/persona.identity"
+    },
+    {
+      "type": "paragraph",
+      "id": "d62cd4b874b0d48a",
+      "text": "If you had a newline separated list of student usernames, in the wiki db directory, and wanted to create wiki's with their user names, only able to be claimed by 'studentusername@school.edu' you could do this:"
+    },
+    {
+      "type": "code",
+      "id": "47efa2abc3397b72",
+      "text": "for i in `cat ./list`; do mkdir -p $i/status && printf \"$i\"@school.edu > $i/status/persona.identity;done"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Closed farm",
+        "story": []
+      },
+      "date": 1418797159231
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3da7bc4059459085"
+      },
+      "id": "3da7bc4059459085",
+      "type": "add",
+      "date": 1418797168568
+    },
+    {
+      "type": "edit",
+      "id": "3da7bc4059459085",
+      "item": {
+        "type": "paragraph",
+        "id": "3da7bc4059459085",
+        "text": "Most wiki farms are open. This is for flexibility, and ease of setup. But with a little work they don't have to be."
+      },
+      "date": 1418797222620
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "5d5e128ba3e1c736",
+        "text": ""
+      },
+      "id": "5d5e128ba3e1c736",
+      "type": "add",
+      "after": "3da7bc4059459085",
+      "date": 1418797222626
+    },
+    {
+      "type": "edit",
+      "id": "5d5e128ba3e1c736",
+      "item": {
+        "type": "paragraph",
+        "id": "5d5e128ba3e1c736",
+        "text": "The main thing you need to create a closed farm is a list of wiki names, and the email addresses of the people that should own them."
+      },
+      "date": 1418797309203
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "bb07736c55a48a17",
+        "text": ""
+      },
+      "id": "bb07736c55a48a17",
+      "type": "add",
+      "after": "5d5e128ba3e1c736",
+      "date": 1418797309206
+    },
+    {
+      "type": "remove",
+      "id": "bb07736c55a48a17",
+      "date": 1418797310640
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "901da6a6e550d167",
+        "text": ""
+      },
+      "id": "901da6a6e550d167",
+      "type": "add",
+      "after": "5d5e128ba3e1c736",
+      "date": 1418797363360
+    },
+    {
+      "type": "edit",
+      "id": "901da6a6e550d167",
+      "item": {
+        "type": "paragraph",
+        "id": "901da6a6e550d167",
+        "text": "The first step is to make sure only the right traffic can reach them. This should be done on the server using a reverse proxy. One easy way to set this up is to use nginx like you would for a virtual host setup. You can then direct only the domain names you want at your server."
+      },
+      "date": 1418797594994
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "4a6a8816b9ab65e7",
+        "text": ""
+      },
+      "id": "4a6a8816b9ab65e7",
+      "type": "add",
+      "after": "901da6a6e550d167",
+      "date": 1418797594999
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "2936a239761454b6",
+        "text": ""
+      },
+      "id": "2936a239761454b6",
+      "type": "add",
+      "after": "4a6a8816b9ab65e7",
+      "date": 1418797606448
+    },
+    {
+      "type": "edit",
+      "id": "2936a239761454b6",
+      "item": {
+        "type": "paragraph",
+        "id": "2936a239761454b6",
+        "text": "Then you have to create the persona.i"
+      },
+      "date": 1418797676448
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "422054c62194630e",
+        "text": ""
+      },
+      "id": "422054c62194630e",
+      "type": "add",
+      "after": "2936a239761454b6",
+      "date": 1418797702576
+    },
+    {
+      "type": "edit",
+      "id": "2936a239761454b6",
+      "item": {
+        "type": "paragraph",
+        "id": "2936a239761454b6",
+        "text": "Then you have to create the persona.identity file for each wiki, so that they can't be claimed by anyone else."
+      },
+      "date": 1418797702573
+    },
+    {
+      "type": "remove",
+      "id": "422054c62194630e",
+      "date": 1418797703831
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "8c97852cbfbee38f",
+        "text": ""
+      },
+      "id": "8c97852cbfbee38f",
+      "type": "add",
+      "after": "2936a239761454b6",
+      "date": 1418797724002
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "2b7ee1546c2932f0"
+      },
+      "id": "2b7ee1546c2932f0",
+      "type": "add",
+      "after": "8c97852cbfbee38f",
+      "date": 1418797750833
+    },
+    {
+      "type": "edit",
+      "id": "8c97852cbfbee38f",
+      "item": {
+        "type": "paragraph",
+        "id": "8c97852cbfbee38f",
+        "text": "To do this for my own wiki I would do this:"
+      },
+      "date": 1418797757499
+    },
+    {
+      "type": "remove",
+      "id": "2b7ee1546c2932f0",
+      "date": 1418797759198
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "2cfe892d6813ea38"
+      },
+      "id": "2cfe892d6813ea38",
+      "type": "add",
+      "after": "8c97852cbfbee38f",
+      "date": 1418797773200
+    },
+    {
+      "type": "edit",
+      "id": "2cfe892d6813ea38",
+      "item": {
+        "type": "code",
+        "id": "2cfe892d6813ea38",
+        "text": " mkdir -p 198.211.103.94/status"
+      },
+      "date": 1418797780451
+    },
+    {
+      "type": "edit",
+      "id": "2cfe892d6813ea38",
+      "item": {
+        "type": "code",
+        "id": "2cfe892d6813ea38",
+        "text": " mkdir -p 198.211.103.94/status\nprintf 'nick.niemeir@gmail.com' > 198.211.103.94/status/persona.identity"
+      },
+      "date": 1418797802548
+    },
+    {
+      "type": "edit",
+      "id": "8c97852cbfbee38f",
+      "item": {
+        "type": "paragraph",
+        "id": "8c97852cbfbee38f",
+        "text": "To do this for my own wiki, starting in the wiki db directory, I would do this:"
+      },
+      "date": 1418797827660
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "593cabf9190e22ef",
+        "text": ""
+      },
+      "id": "593cabf9190e22ef",
+      "type": "add",
+      "after": "4a6a8816b9ab65e7",
+      "date": 1418797886346
+    },
+    {
+      "type": "edit",
+      "id": "593cabf9190e22ef",
+      "item": {
+        "type": "paragraph",
+        "id": "593cabf9190e22ef",
+        "text": "Would this be a "
+      },
+      "date": 1418797900936
+    },
+    {
+      "type": "edit",
+      "id": "593cabf9190e22ef",
+      "item": {
+        "type": "paragraph",
+        "id": "593cabf9190e22ef",
+        "text": "Would a list of approved farm host names be a good feature to add?"
+      },
+      "date": 1418797944790
+    },
+    {
+      "type": "edit",
+      "id": "2cfe892d6813ea38",
+      "item": {
+        "type": "code",
+        "id": "2cfe892d6813ea38",
+        "text": " mkdir -p ramble.nrn.io/status\nprintf 'nick.niemeir@gmail.com' > ramble.nrn.io/status/persona.identity"
+      },
+      "date": 1418797975641
+    },
+    {
+      "type": "edit",
+      "id": "2cfe892d6813ea38",
+      "item": {
+        "type": "code",
+        "id": "2cfe892d6813ea38",
+        "text": "mkdir -p ramble.nrn.io/status\n\nprintf 'nick.niemeir@gmail.com' > ramble.nrn.io/status/persona.identity"
+      },
+      "date": 1418803550288
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "d62cd4b874b0d48a"
+      },
+      "id": "d62cd4b874b0d48a",
+      "type": "add",
+      "after": "2cfe892d6813ea38",
+      "date": 1418804387254
+    },
+    {
+      "type": "edit",
+      "id": "d62cd4b874b0d48a",
+      "item": {
+        "type": "paragraph",
+        "id": "d62cd4b874b0d48a",
+        "text": "If you had a newline separated list of student usernames, in the wiki db directory, and wanted to create wiki's with their user names, only able to be claimed by 'studentusername@school.edu' you could do this:"
+      },
+      "date": 1418804500925
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "47efa2abc3397b72"
+      },
+      "id": "47efa2abc3397b72",
+      "type": "add",
+      "after": "d62cd4b874b0d48a",
+      "date": 1418804513692
+    },
+    {
+      "type": "edit",
+      "id": "47efa2abc3397b72",
+      "item": {
+        "type": "code",
+        "id": "47efa2abc3397b72",
+        "text": "for i in `cat ./list`; do mkdir -p $i/status && printf \"$i\"@school.edu > $i/status/persona.identity;done"
+      },
+      "date": 1418804528060
+    },
+    {
+      "type": "edit",
+      "id": "593cabf9190e22ef",
+      "item": {
+        "type": "paragraph",
+        "id": "593cabf9190e22ef",
+        "text": "Would a list of approved farm host names be a good feature to add? <-- I think so. Proposed a way to add it."
+      },
+      "date": 1418804614121
+    },
+    {
+      "type": "edit",
+      "id": "593cabf9190e22ef",
+      "item": {
+        "type": "paragraph",
+        "id": "593cabf9190e22ef",
+        "text": "Would a list of approved farm host names be a good feature to add? <-- I think so. So I proposed a way to add it."
+      },
+      "date": 1418804631295
+    }
+  ]
+}

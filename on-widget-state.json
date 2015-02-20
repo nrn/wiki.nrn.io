@@ -1,0 +1,185 @@
+{
+  "title": "On Widget State",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "987a142c2ec58f5a",
+      "text": "Browser based widgets are extremely useful, and Dashku gives is a nice way to create and manage them, however we are left with a very complex question of how to manage the state of a widget in a contextless push based system."
+    },
+    {
+      "type": "paragraph",
+      "id": "eaac5e812cc224c9",
+      "text": "You can cary so little history that the brief period of time in which you don't have the whole picture doesn't matter."
+    },
+    {
+      "type": "paragraph",
+      "id": "703d5509c77d589e",
+      "text": "You can use an external fetch to catch up on previous information."
+    },
+    {
+      "type": "paragraph",
+      "id": "22d6bdc9be7e29aa",
+      "text": "You can publish the entire data set to be displayed each time."
+    },
+    {
+      "type": "paragraph",
+      "id": "c4513d7077e283cc",
+      "text": "You can make the visualization responsive to the amount of data it has, and display it in the most meaningful way it can, filling up with state until it hits a high water mark and starts discarding old information. This also has to provide context to the user on how long it's been running."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "id": "8c497d844ee5c0c3",
+      "item": {
+        "title": "On Widget State"
+      },
+      "date": 1348990689705
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "987a142c2ec58f5a"
+      },
+      "id": "987a142c2ec58f5a",
+      "type": "add",
+      "date": 1348990692871
+    },
+    {
+      "type": "edit",
+      "id": "987a142c2ec58f5a",
+      "item": {
+        "type": "paragraph",
+        "id": "987a142c2ec58f5a",
+        "text": "Browser based widgets are extremely useful, and Dashku gives is a nice way to create and manage them, however we are left with a very complex question of how to manage the state of a widget in a contextless push based system."
+      },
+      "date": 1348990800503
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "eaac5e812cc224c9",
+        "text": ""
+      },
+      "id": "eaac5e812cc224c9",
+      "type": "add",
+      "after": "987a142c2ec58f5a",
+      "date": 1348990801007
+    },
+    {
+      "type": "edit",
+      "id": "eaac5e812cc224c9",
+      "item": {
+        "type": "paragraph",
+        "id": "eaac5e812cc224c9",
+        "text": "You can cary so little history that the brief period of time in which you don't have the whole picture doesn't matter."
+      },
+      "date": 1348990881231
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "703d5509c77d589e",
+        "text": ""
+      },
+      "id": "703d5509c77d589e",
+      "type": "add",
+      "after": "eaac5e812cc224c9",
+      "date": 1348990881734
+    },
+    {
+      "type": "edit",
+      "id": "703d5509c77d589e",
+      "item": {
+        "type": "paragraph",
+        "id": "703d5509c77d589e",
+        "text": "You can use an external fetch to catch up on previous information."
+      },
+      "date": 1348990912869
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "22d6bdc9be7e29aa",
+        "text": ""
+      },
+      "id": "22d6bdc9be7e29aa",
+      "type": "add",
+      "after": "703d5509c77d589e",
+      "date": 1348990913372
+    },
+    {
+      "type": "edit",
+      "id": "22d6bdc9be7e29aa",
+      "item": {
+        "type": "paragraph",
+        "id": "22d6bdc9be7e29aa",
+        "text": "You can publish the entire data set to be displayed each time."
+      },
+      "date": 1348990934087
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "c4513d7077e283cc",
+        "text": ""
+      },
+      "id": "c4513d7077e283cc",
+      "type": "add",
+      "after": "22d6bdc9be7e29aa",
+      "date": 1348990934589
+    },
+    {
+      "type": "edit",
+      "id": "c4513d7077e283cc",
+      "item": {
+        "type": "paragraph",
+        "id": "c4513d7077e283cc",
+        "text": "You can make the visualization responsive to the amount of data it has, and display it in the most meaningful way it can, filling up with state until it hits a high water mark and starts discarding old information."
+      },
+      "date": 1348991041200
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "da00c0fcd75fb055",
+        "text": ""
+      },
+      "id": "da00c0fcd75fb055",
+      "type": "add",
+      "after": "c4513d7077e283cc",
+      "date": 1348991041703
+    },
+    {
+      "type": "remove",
+      "id": "da00c0fcd75fb055",
+      "date": 1348991168779
+    },
+    {
+      "type": "edit",
+      "id": "c4513d7077e283cc",
+      "item": {
+        "type": "paragraph",
+        "id": "c4513d7077e283cc",
+        "text": "You can make the visualization responsive to the amount of data it has, and display it in the most meaningful way it can, filling up with state until it hits a high water mark and starts discarding old information. This also has to provide context to the user on how long it's been running."
+      },
+      "date": 1348991186511
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "bbf18bd57bb958e7",
+        "text": ""
+      },
+      "id": "bbf18bd57bb958e7",
+      "type": "add",
+      "after": "c4513d7077e283cc",
+      "date": 1348991187014
+    },
+    {
+      "type": "remove",
+      "id": "bbf18bd57bb958e7",
+      "date": 1348991193036
+    }
+  ]
+}

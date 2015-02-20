@@ -1,0 +1,226 @@
+{
+  "title": "SFW Node ToDO",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "288cd731b10ef843",
+      "text": "recent changes citation/references"
+    },
+    {
+      "type": "paragraph",
+      "id": "b010c41e6c2d7106",
+      "text": "view/local/origin source urls"
+    },
+    {
+      "type": "paragraph",
+      "id": "ff1902ea6a6ad595",
+      "text": "submit local pages.  make new subdomain site with them."
+    },
+    {
+      "type": "paragraph",
+      "id": "9f67e2af1fa79709",
+      "text": "system/site-map.json system/plugins.json"
+    },
+    {
+      "type": "paragraph",
+      "id": "1951a4744379b8a2",
+      "text": "fork it button"
+    },
+    {
+      "type": "paragraph",
+      "id": "562f2d3751ce01c2",
+      "text": "special route to look for table name"
+    },
+    {
+      "type": "paragraph",
+      "id": "b8e757cd11fe5d4b",
+      "text": "serve pages out of plugin dir."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "id": "65828d60b4879cf5",
+      "item": {
+        "title": "SFW Node ToDO"
+      },
+      "date": 1345656621183
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "288cd731b10ef843"
+      },
+      "id": "288cd731b10ef843",
+      "type": "add",
+      "date": 1345657296222
+    },
+    {
+      "type": "edit",
+      "id": "288cd731b10ef843",
+      "item": {
+        "type": "paragraph",
+        "id": "288cd731b10ef843",
+        "text": "recent changes citation/references"
+      },
+      "date": 1345657307011
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "f749412c9a8d7033",
+        "text": ""
+      },
+      "id": "f749412c9a8d7033",
+      "type": "add",
+      "after": "288cd731b10ef843",
+      "date": 1345657307518
+    },
+    {
+      "type": "remove",
+      "id": "f749412c9a8d7033",
+      "date": 1345657317123
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b010c41e6c2d7106"
+      },
+      "id": "b010c41e6c2d7106",
+      "type": "add",
+      "after": "288cd731b10ef843",
+      "date": 1345657421328
+    },
+    {
+      "type": "edit",
+      "id": "b010c41e6c2d7106",
+      "item": {
+        "type": "paragraph",
+        "id": "b010c41e6c2d7106",
+        "text": "view/local/origin source urls"
+      },
+      "date": 1345657435636
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "ff1902ea6a6ad595",
+        "text": ""
+      },
+      "id": "ff1902ea6a6ad595",
+      "type": "add",
+      "after": "b010c41e6c2d7106",
+      "date": 1345657436141
+    },
+    {
+      "type": "edit",
+      "id": "ff1902ea6a6ad595",
+      "item": {
+        "type": "paragraph",
+        "id": "ff1902ea6a6ad595",
+        "text": "submit local pages.  make new subdomain site with them."
+      },
+      "date": 1345657523978
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "9f67e2af1fa79709",
+        "text": ""
+      },
+      "id": "9f67e2af1fa79709",
+      "type": "add",
+      "after": "ff1902ea6a6ad595",
+      "date": 1345657524483
+    },
+    {
+      "type": "edit",
+      "id": "9f67e2af1fa79709",
+      "item": {
+        "type": "paragraph",
+        "id": "9f67e2af1fa79709",
+        "text": "system/site-map.json system/plugins.json"
+      },
+      "date": 1345657854374
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "1951a4744379b8a2",
+        "text": ""
+      },
+      "id": "1951a4744379b8a2",
+      "type": "add",
+      "after": "9f67e2af1fa79709",
+      "date": 1345657854880
+    },
+    {
+      "type": "edit",
+      "id": "1951a4744379b8a2",
+      "item": {
+        "type": "paragraph",
+        "id": "1951a4744379b8a2",
+        "text": "fork it button"
+      },
+      "date": 1345658041186
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "562f2d3751ce01c2",
+        "text": ""
+      },
+      "id": "562f2d3751ce01c2",
+      "type": "add",
+      "after": "1951a4744379b8a2",
+      "date": 1345658041698
+    },
+    {
+      "type": "edit",
+      "id": "562f2d3751ce01c2",
+      "item": {
+        "type": "paragraph",
+        "id": "562f2d3751ce01c2",
+        "text": "special route to look for table name"
+      },
+      "date": 1345658110269
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "b8e757cd11fe5d4b",
+        "text": ""
+      },
+      "id": "b8e757cd11fe5d4b",
+      "type": "add",
+      "after": "562f2d3751ce01c2",
+      "date": 1345658110775
+    },
+    {
+      "type": "edit",
+      "id": "b8e757cd11fe5d4b",
+      "item": {
+        "type": "paragraph",
+        "id": "b8e757cd11fe5d4b",
+        "text": "serve pages out of plugin dir."
+      },
+      "date": 1345658173181
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "f2fa1c505b769428",
+        "text": ""
+      },
+      "id": "f2fa1c505b769428",
+      "type": "add",
+      "after": "b8e757cd11fe5d4b",
+      "date": 1345658173689
+    },
+    {
+      "type": "remove",
+      "id": "f2fa1c505b769428",
+      "date": 1345658247359
+    }
+  ]
+}

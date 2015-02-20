@@ -1,0 +1,65 @@
+{
+  "title": "December 2014",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "db06f14b26eb17dd",
+      "text": "[[Deploying a Wiki]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "3be141dcfdfa5d43",
+      "text": "[[Closed Farm]]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "December 2014",
+        "story": []
+      },
+      "date": 1418881804081
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "db06f14b26eb17dd"
+      },
+      "id": "db06f14b26eb17dd",
+      "type": "add",
+      "date": 1418882102510
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "3be141dcfdfa5d43",
+        "text": ""
+      },
+      "id": "3be141dcfdfa5d43",
+      "type": "add",
+      "after": "db06f14b26eb17dd",
+      "date": 1418882113630
+    },
+    {
+      "type": "edit",
+      "id": "3be141dcfdfa5d43",
+      "item": {
+        "type": "paragraph",
+        "id": "3be141dcfdfa5d43",
+        "text": "[[Closed Farm]]"
+      },
+      "date": 1418882121749
+    },
+    {
+      "type": "edit",
+      "id": "db06f14b26eb17dd",
+      "item": {
+        "type": "paragraph",
+        "id": "db06f14b26eb17dd",
+        "text": "[[Deploying a Wiki]]"
+      },
+      "date": 1418882259510
+    }
+  ]
+}

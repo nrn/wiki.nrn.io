@@ -1,0 +1,293 @@
+{
+  "title": "Journal for 2014",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "0d023ff4c57cbbe6",
+      "text": "This is an example of what [[Fedwiki as Memex-Journal]] might look like. The idea is one stream for many notes which can be occassionally refactored into separate new or exisitng sites."
+    },
+    {
+      "type": "paragraph",
+      "id": "9208d74cbebfd32a",
+      "text": "See [[December]] for some links or [[Recent Changes]] for more comprehensive set."
+    },
+    {
+      "type": "paragraph",
+      "id": "00a73995834d2401",
+      "text": "Ward Cunningham suggests a different system of link creation besides \"month\" pages in [[Born Related]]."
+    },
+    {
+      "type": "paragraph",
+      "id": "57add12d7f686b6c",
+      "text": "I am still thinking through when a cluster of content becomes a site. It's easy to journal; maybe too easy. But the utimate goal is still that some of this content find places in more niche publications."
+    },
+    {
+      "type": "html",
+      "id": "5f418464fed04a85",
+      "text": "\n"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Journal for 2014",
+        "story": []
+      },
+      "date": 1413471535058
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "0d023ff4c57cbbe6"
+      },
+      "id": "0d023ff4c57cbbe6",
+      "type": "add",
+      "date": 1413471537999
+    },
+    {
+      "type": "edit",
+      "id": "0d023ff4c57cbbe6",
+      "item": {
+        "type": "paragraph",
+        "id": "0d023ff4c57cbbe6",
+        "text": "Journal for 2014."
+      },
+      "date": 1413471547381
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "9208d74cbebfd32a"
+      },
+      "id": "9208d74cbebfd32a",
+      "type": "add",
+      "after": "0d023ff4c57cbbe6",
+      "date": 1413471551384
+    },
+    {
+      "type": "edit",
+      "id": "9208d74cbebfd32a",
+      "item": {
+        "type": "paragraph",
+        "id": "9208d74cbebfd32a",
+        "text": "[[October]]"
+      },
+      "date": 1413471560815
+    },
+    {
+      "type": "edit",
+      "id": "0d023ff4c57cbbe6",
+      "item": {
+        "type": "paragraph",
+        "id": "0d023ff4c57cbbe6",
+        "text": "This is an example of what [[Fedwiki as Memex-Journal]] might look like. "
+      },
+      "date": 1413583159119
+    },
+    {
+      "type": "edit",
+      "id": "9208d74cbebfd32a",
+      "item": {
+        "type": "paragraph",
+        "id": "9208d74cbebfd32a",
+        "text": "See [[October]] for some links."
+      },
+      "date": 1413583176361
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "dcf3e86498ac2b3c",
+        "text": ""
+      },
+      "id": "dcf3e86498ac2b3c",
+      "type": "add",
+      "after": "9208d74cbebfd32a",
+      "date": 1413753793378
+    },
+    {
+      "type": "remove",
+      "id": "dcf3e86498ac2b3c",
+      "date": 1413753798722
+    },
+    {
+      "type": "fork",
+      "site": "journal14.hapgood.net:3000",
+      "date": 1413761540038
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ee1b80ddd3206e7b"
+      },
+      "id": "ee1b80ddd3206e7b",
+      "type": "add",
+      "after": "9208d74cbebfd32a",
+      "site": "journal14.hapgood.net:3000",
+      "date": 1413761540030
+    },
+    {
+      "type": "fork",
+      "date": 1413761617692
+    },
+    {
+      "type": "edit",
+      "id": "0d023ff4c57cbbe6",
+      "item": {
+        "type": "paragraph",
+        "id": "0d023ff4c57cbbe6",
+        "text": "This is an example of what [[Fedwiki as Memex-Journal]] might look like. The idea is one stream for many notes which can be occassionally refactored into separate new or exisitng sites."
+      },
+      "date": 1413764508673
+    },
+    {
+      "type": "remove",
+      "id": "ee1b80ddd3206e7b",
+      "date": 1413764652430
+    },
+    {
+      "type": "edit",
+      "id": "9208d74cbebfd32a",
+      "item": {
+        "type": "paragraph",
+        "id": "9208d74cbebfd32a",
+        "text": "See [[October]] for some links or [[Recent Changes]] for more comprehensive set."
+      },
+      "date": 1413764982209
+    },
+    {
+      "type": "edit",
+      "id": "9208d74cbebfd32a",
+      "item": {
+        "type": "paragraph",
+        "id": "9208d74cbebfd32a",
+        "text": "See [[October]] and [[November]] for some links or [[Recent Changes]] for more comprehensive set."
+      },
+      "date": 1414896419903
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "00a73995834d2401",
+        "text": ""
+      },
+      "id": "00a73995834d2401",
+      "type": "add",
+      "after": "9208d74cbebfd32a",
+      "date": 1415563857701
+    },
+    {
+      "type": "edit",
+      "id": "00a73995834d2401",
+      "item": {
+        "type": "paragraph",
+        "id": "00a73995834d2401",
+        "text": "Ward Cunningham suggests a different system of link creation besides \"month\" pages in [[Born Related]]."
+      },
+      "date": 1415563938910
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "57add12d7f686b6c",
+        "text": ""
+      },
+      "id": "57add12d7f686b6c",
+      "type": "add",
+      "after": "00a73995834d2401",
+      "date": 1415563954049
+    },
+    {
+      "type": "edit",
+      "id": "57add12d7f686b6c",
+      "item": {
+        "type": "paragraph",
+        "id": "57add12d7f686b6c",
+        "text": "I am still thinking through when a cluster of content becomes a site. It's easy to journal; maybe too easy. But the utimate goal is still that some of this content find places in more niche publications."
+      },
+      "date": 1415564030624
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "98f6f39bb07fdae3",
+        "text": ""
+      },
+      "id": "98f6f39bb07fdae3",
+      "type": "add",
+      "after": "57add12d7f686b6c",
+      "date": 1415564030647
+    },
+    {
+      "type": "remove",
+      "id": "98f6f39bb07fdae3",
+      "date": 1415564031935
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "47b496c39bf26f5d"
+      },
+      "id": "47b496c39bf26f5d",
+      "type": "add",
+      "after": "57add12d7f686b6c",
+      "date": 1416441626584
+    },
+    {
+      "type": "remove",
+      "id": "47b496c39bf26f5d",
+      "date": 1416441788138
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "5f418464fed04a85"
+      },
+      "id": "5f418464fed04a85",
+      "type": "add",
+      "after": "57add12d7f686b6c",
+      "date": 1416441790081
+    },
+    {
+      "type": "edit",
+      "id": "5f418464fed04a85",
+      "item": {
+        "type": "html",
+        "id": "5f418464fed04a85",
+        "text": "khajhkajhf\n\n\n"
+      },
+      "date": 1416441826477
+    },
+    {
+      "type": "edit",
+      "id": "5f418464fed04a85",
+      "item": {
+        "type": "html",
+        "id": "5f418464fed04a85",
+        "text": "\n"
+      },
+      "date": 1416442181249
+    },
+    {
+      "type": "fork",
+      "site": "journal14.hapgood.net:3000",
+      "date": 1417026562463
+    },
+    {
+      "type": "fork",
+      "site": "forage.ward.fed.wiki.org",
+      "date": 1418018457664
+    },
+    {
+      "type": "edit",
+      "id": "9208d74cbebfd32a",
+      "item": {
+        "type": "paragraph",
+        "id": "9208d74cbebfd32a",
+        "text": "See [[December]] for some links or [[Recent Changes]] for more comprehensive set."
+      },
+      "date": 1418018517783
+    }
+  ]
+}

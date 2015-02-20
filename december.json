@@ -1,0 +1,307 @@
+{
+  "title": "December",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "31f94c3a98bfbef9",
+      "text": "Not sure how this is supposed to work, but here it goes!"
+    },
+    {
+      "type": "paragraph",
+      "id": "3930ae47ca361fa4",
+      "text": "[[Deploying a wiki]]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "December",
+        "story": []
+      },
+      "date": 1417470208942
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "31f94c3a98bfbef9"
+      },
+      "id": "31f94c3a98bfbef9",
+      "type": "add",
+      "date": 1417470210282
+    },
+    {
+      "type": "edit",
+      "id": "31f94c3a98bfbef9",
+      "item": {
+        "type": "paragraph",
+        "id": "31f94c3a98bfbef9",
+        "text": "[[Borg Fallacy]]"
+      },
+      "date": 1417470217725
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "034e42752e5c8af2"
+      },
+      "id": "034e42752e5c8af2",
+      "type": "add",
+      "after": "31f94c3a98bfbef9",
+      "date": 1417497901169
+    },
+    {
+      "type": "edit",
+      "id": "034e42752e5c8af2",
+      "item": {
+        "type": "paragraph",
+        "id": "034e42752e5c8af2",
+        "text": "[[Asymptotes]]"
+      },
+      "date": 1417497910461
+    },
+    {
+      "type": "edit",
+      "id": "034e42752e5c8af2",
+      "item": {
+        "type": "paragraph",
+        "id": "034e42752e5c8af2",
+        "text": "[[Asymptote]]"
+      },
+      "date": 1417497958211
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "40ac6e7b36747813",
+        "text": ""
+      },
+      "id": "40ac6e7b36747813",
+      "type": "add",
+      "after": "034e42752e5c8af2",
+      "date": 1417498593659
+    },
+    {
+      "type": "edit",
+      "id": "40ac6e7b36747813",
+      "item": {
+        "type": "paragraph",
+        "id": "40ac6e7b36747813",
+        "text": "[[Genetics' Lost Generation]]"
+      },
+      "date": 1417498622494
+    },
+    {
+      "type": "edit",
+      "id": "40ac6e7b36747813",
+      "item": {
+        "type": "paragraph",
+        "id": "40ac6e7b36747813",
+        "text": "[[Lost Generation of Genetics]]"
+      },
+      "date": 1417498648660
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "ab4e9233d603aa16",
+        "text": ""
+      },
+      "id": "ab4e9233d603aa16",
+      "type": "add",
+      "after": "40ac6e7b36747813",
+      "date": 1417547351756
+    },
+    {
+      "type": "edit",
+      "id": "ab4e9233d603aa16",
+      "item": {
+        "type": "paragraph",
+        "id": "ab4e9233d603aa16",
+        "text": "[[Concept Triangulation]]"
+      },
+      "date": 1417547360162
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "cee9927e529ff500",
+        "text": ""
+      },
+      "id": "cee9927e529ff500",
+      "type": "add",
+      "after": "ab4e9233d603aa16",
+      "date": 1417547360181
+    },
+    {
+      "type": "remove",
+      "id": "cee9927e529ff500",
+      "date": 1417547363043
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "aa9b9455c57c5700",
+        "text": ""
+      },
+      "id": "aa9b9455c57c5700",
+      "type": "add",
+      "after": "31f94c3a98bfbef9",
+      "date": 1417906268169
+    },
+    {
+      "type": "edit",
+      "id": "aa9b9455c57c5700",
+      "item": {
+        "type": "paragraph",
+        "id": "aa9b9455c57c5700",
+        "text": "[[Lollipop Trees]]"
+      },
+      "date": 1417906277273
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "9424cfde260fd126",
+        "text": ""
+      },
+      "id": "9424cfde260fd126",
+      "type": "add",
+      "after": "ab4e9233d603aa16",
+      "date": 1417912875437
+    },
+    {
+      "type": "edit",
+      "id": "9424cfde260fd126",
+      "item": {
+        "type": "paragraph",
+        "id": "9424cfde260fd126",
+        "text": "[[Idea Mining]]"
+      },
+      "date": 1417912886604
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "959d34b02364994c",
+        "text": ""
+      },
+      "id": "959d34b02364994c",
+      "type": "add",
+      "after": "ab4e9233d603aa16",
+      "date": 1417932138104
+    },
+    {
+      "type": "edit",
+      "id": "959d34b02364994c",
+      "item": {
+        "type": "paragraph",
+        "id": "959d34b02364994c",
+        "text": "[[Clear]]"
+      },
+      "date": 1417932145973
+    },
+    {
+      "type": "edit",
+      "id": "959d34b02364994c",
+      "item": {
+        "type": "paragraph",
+        "id": "959d34b02364994c",
+        "text": "[[Return]]"
+      },
+      "date": 1417932597082
+    },
+    {
+      "type": "remove",
+      "id": "959d34b02364994c",
+      "date": 1417932604414
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "078c01ddd6a3db6f",
+        "text": ""
+      },
+      "id": "078c01ddd6a3db6f",
+      "type": "add",
+      "after": "9424cfde260fd126",
+      "date": 1417971547515
+    },
+    {
+      "type": "edit",
+      "id": "078c01ddd6a3db6f",
+      "item": {
+        "type": "paragraph",
+        "id": "078c01ddd6a3db6f",
+        "text": "[[Be Cool]]"
+      },
+      "date": 1417971582103
+    },
+    {
+      "type": "fork",
+      "site": "journal14.hapgood.net:3000",
+      "date": 1418018681206
+    },
+    {
+      "type": "remove",
+      "id": "078c01ddd6a3db6f",
+      "date": 1418018686940
+    },
+    {
+      "type": "remove",
+      "id": "9424cfde260fd126",
+      "date": 1418018687482
+    },
+    {
+      "type": "remove",
+      "id": "ab4e9233d603aa16",
+      "date": 1418018688367
+    },
+    {
+      "type": "remove",
+      "id": "40ac6e7b36747813",
+      "date": 1418018689451
+    },
+    {
+      "type": "remove",
+      "id": "034e42752e5c8af2",
+      "date": 1418018689927
+    },
+    {
+      "type": "remove",
+      "id": "aa9b9455c57c5700",
+      "date": 1418018690570
+    },
+    {
+      "type": "edit",
+      "id": "31f94c3a98bfbef9",
+      "item": {
+        "type": "paragraph",
+        "id": "31f94c3a98bfbef9",
+        "text": "Not sure how this is supposed to work, but here it goes!"
+      },
+      "date": 1418018715659
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "3930ae47ca361fa4",
+        "text": ""
+      },
+      "id": "3930ae47ca361fa4",
+      "type": "add",
+      "after": "31f94c3a98bfbef9",
+      "date": 1418018716163
+    },
+    {
+      "type": "edit",
+      "id": "3930ae47ca361fa4",
+      "item": {
+        "type": "paragraph",
+        "id": "3930ae47ca361fa4",
+        "text": "[[Deploying a wiki]]"
+      },
+      "date": 1418018748967
+    }
+  ]
+}

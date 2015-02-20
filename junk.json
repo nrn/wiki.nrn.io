@@ -1,0 +1,63 @@
+{
+  "title": "junk",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "8f1d0764dd0b015e",
+      "text": "test"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "id": "26942af974b2393a",
+      "item": {
+        "title": "junk"
+      },
+      "date": 1339881411398
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "8f1d0764dd0b015e"
+      },
+      "id": "8f1d0764dd0b015e",
+      "type": "add",
+      "date": 1339881447109
+    },
+    {
+      "type": "edit",
+      "id": "8f1d0764dd0b015e",
+      "item": {
+        "type": "paragraph",
+        "id": "8f1d0764dd0b015e",
+        "text": "test"
+      },
+      "date": 1339881453334
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3fa7cf992344fb08"
+      },
+      "id": "3fa7cf992344fb08",
+      "type": "add",
+      "after": "8f1d0764dd0b015e",
+      "date": 1339881455326
+    },
+    {
+      "type": "move",
+      "order": [
+        "3fa7cf992344fb08",
+        "8f1d0764dd0b015e"
+      ],
+      "id": "8f1d0764dd0b015e",
+      "date": 1339881458078
+    },
+    {
+      "type": "remove",
+      "id": "3fa7cf992344fb08",
+      "date": 1339881461109
+    }
+  ]
+}

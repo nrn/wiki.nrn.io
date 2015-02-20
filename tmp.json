@@ -1,0 +1,65 @@
+{
+  "title": "tmp",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "688a996fd9bf76d6",
+      "text": "A temporary page."
+    },
+    {
+      "type": "paragraph",
+      "id": "eeb540395cba376e",
+      "text": "[[December]]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "tmp",
+        "story": []
+      },
+      "date": 1418018605806
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "688a996fd9bf76d6"
+      },
+      "id": "688a996fd9bf76d6",
+      "type": "add",
+      "date": 1418018607309
+    },
+    {
+      "type": "edit",
+      "id": "688a996fd9bf76d6",
+      "item": {
+        "type": "paragraph",
+        "id": "688a996fd9bf76d6",
+        "text": "A temporary page."
+      },
+      "date": 1418018613321
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "eeb540395cba376e",
+        "text": ""
+      },
+      "id": "eeb540395cba376e",
+      "type": "add",
+      "after": "688a996fd9bf76d6",
+      "date": 1418018613827
+    },
+    {
+      "type": "edit",
+      "id": "eeb540395cba376e",
+      "item": {
+        "type": "paragraph",
+        "id": "eeb540395cba376e",
+        "text": "[[December]]"
+      },
+      "date": 1418018638562
+    }
+  ]
+}
