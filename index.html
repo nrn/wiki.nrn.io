@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class='no-js'>
+<html class='no-js' manifest="cache.appcache">
   <head>
     <title>Smallest Federated Wiki</title>
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
@@ -26,10 +26,6 @@
     </section>
     <footer class=claim>
 
-      <div id='site-owner' class='footer-item'></div>
-
-      <a href='#' class='persona-button' id='persona-login-btn'><span>Claim with your Email</span></a>
-
       <span class='searchbox'>
         Search:
         <input class='search' name='search' type='text'>
@@ -44,8 +40,7 @@ var loggedInUser =
   var seedNeighbors = 'ward.fed.wiki.org,sites.fed.wiki.org,wiki.c2.com,fed.wiki.org'
   wiki.persona(loggedInUser);
     if (location.pathname.length > location.hash.length) {
-      location.hash = location.pathname
-      location.pathname = ''
+      history.replaceState(null,null,'/#'+location.pathname)
     }
     var segments = location.hash.slice(1).split('/').filter(Boolean)
     if (!segments.length) {
