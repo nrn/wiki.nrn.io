@@ -9,7 +9,7 @@
     {
       "type": "paragraph",
       "id": "6356b88dd9f74e8f",
-      "text": "The best reference for JS and related technologies by far is the [https://developer.mozilla.org/en-US/ Mozilla Developer Network], however I really like using [http://dochub.io/#javascript/ Dochub], which is an easy to use single page app wrapped around the information in MDN and some other sources."
+      "text": "The best reference for JS and related technologies by far is the [https://developer.mozilla.org/en-US/ Mozilla Developer Network], and a this is a good [http://marijnhaverbeke.nl/js-cheatsheet.html cheat sheet]."
     },
     {
       "type": "reference",
@@ -1003,6 +1003,26 @@
       "type": "remove",
       "id": "c688c2514d81903f",
       "date": 1413185552414
+    },
+    {
+      "type": "edit",
+      "id": "6356b88dd9f74e8f",
+      "item": {
+        "type": "paragraph",
+        "id": "6356b88dd9f74e8f",
+        "text": "The best reference for JS and related technologies by far is the [https://developer.mozilla.org/en-US/ Mozilla Developer Network]."
+      },
+      "date": 1424506754198
+    },
+    {
+      "type": "edit",
+      "id": "6356b88dd9f74e8f",
+      "item": {
+        "type": "paragraph",
+        "id": "6356b88dd9f74e8f",
+        "text": "The best reference for JS and related technologies by far is the [https://developer.mozilla.org/en-US/ Mozilla Developer Network], and a this is a good [http://marijnhaverbeke.nl/js-cheatsheet.html cheat sheet]."
+      },
+      "date": 1424506823081
     }
   ]
 }

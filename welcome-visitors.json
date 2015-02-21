@@ -4,12 +4,12 @@
     {
       "type": "paragraph",
       "id": "63ad2e58eecdd9e5",
-      "text": "Welcome, this is the personal federated wiki of [[Nick Niemeir]], and is currently mostly used to test the express server for [[Smallest Federated Wiki]]. Slowly it will be used more and more for off site storage for my brain, and may eventually develop content interesting to other people, but on that we will have to see..."
+      "text": "Welcome, this is the personal federated wiki of [[Nick Niemeir]], and is currently mostly used to test the static deployment of [[Smallest Federated Wiki]]. Slowly it will be used more and more for off site storage for my brain, and may eventually develop content interesting to other people, but on that we will have to see..."
     },
     {
       "type": "paragraph",
       "id": "f2b44138adf3c6b8",
-      "text": "I have been musing about [[JavaScript]] here. Also, even though it's almost over, i've started a [[Journal for 2014]]"
+      "text": "I have been musing about [[JavaScript]] here. Check out [[Recent Changes]] to see anything new going on."
     },
     {
       "type": "paragraph",
@@ -383,6 +383,36 @@
         "text": "I have been musing about [[JavaScript]] here. Also, even though it's almost over, i've started a [[Journal for 2014]]"
       },
       "date": 1418018403322
+    },
+    {
+      "type": "edit",
+      "id": "f2b44138adf3c6b8",
+      "item": {
+        "type": "paragraph",
+        "id": "f2b44138adf3c6b8",
+        "text": "I have been musing about [[JavaScript]] here."
+      },
+      "date": 1424508773017
+    },
+    {
+      "type": "edit",
+      "id": "f2b44138adf3c6b8",
+      "item": {
+        "type": "paragraph",
+        "id": "f2b44138adf3c6b8",
+        "text": "I have been musing about [[JavaScript]] here. Check out [[Recent Changes]] to see anything new going on."
+      },
+      "date": 1424508820269
+    },
+    {
+      "type": "edit",
+      "id": "63ad2e58eecdd9e5",
+      "item": {
+        "type": "paragraph",
+        "id": "63ad2e58eecdd9e5",
+        "text": "Welcome, this is the personal federated wiki of [[Nick Niemeir]], and is currently mostly used to test the static deployment of [[Smallest Federated Wiki]]. Slowly it will be used more and more for off site storage for my brain, and may eventually develop content interesting to other people, but on that we will have to see..."
+      },
+      "date": 1424508984717
     }
   ],
   "synopsys": "The first federated wiki page written and often first page viewed."
